@@ -7,7 +7,7 @@ Comparing by definitions imply that compared elements can be equal. In my case,i
 ## 1.Inheritance 
 One of the most important concepts in object-oriented programming is that of inheritance. Inheritance allows us to define a class in terms of another class, which makes it easier to create and maintain an application. This also provides an opportunity to reuse the code functionality and fast implementation time.
 Inheritance example in C# 
-```[C#]
+```C#
 class Shape 
    {
       public void setWidth(int w)
@@ -34,7 +34,7 @@ class Shape
 Class Rectangle inherits all Shape's proprieties. Also it can add another.
 Inheritance example in Java.
 
-```[Java]
+```Java
 class Shape 
    {
       public void setWidth(int w)
@@ -66,7 +66,7 @@ Polymorphism is the ability of an object to take on many forms. The most common 
 The simpliest example is with function overloading.
 
 C# Example
-```[C#]
+```C#
 class Printdata
    {
       void print(int i)
@@ -97,7 +97,7 @@ class Printdata
 
 Java example
 
-```[Java]
+```Java
 class Printdata
    {
       void print(int i)
@@ -130,7 +130,7 @@ class Printdata
 Encapsulation is defined 'as the process of enclosing one or more items within a physical or logical package'. Encapsulation, in object oriented programming methodology, prevents access to implementation details.
 
 C# Example 
-```[C#]
+```C#
 class Coordinates
 {
 	public int x;
@@ -145,7 +145,7 @@ class Coordinates
 
 Java Example: 
 
-```[Java]
+```Java
 class Coordinates
 {
 	int x; // default packed
